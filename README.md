@@ -5,7 +5,9 @@ Nowa funkcja pozwala użytkownikom:
 1.	Przeglądać listę swoich istniejących playlist.
 2.	Wybierać playlisty do edycji, ładować ich nazwy oraz utwory do panelu playlist.
 3.	Aktualizować nazwy i/lub utwory w wybranej playliście oraz zapisywać zmiany na swoim koncie Spotify.
+
 Projekt zakłada intuicyjne zarządzanie edycją playlist. Na przykład, jeśli użytkownik przełączy się na inną playlistę przed zapisaniem zmian, aplikacja nie zapisze wprowadzonych modyfikacji i załaduje oryginalną wersję wybranej playlisty ze Spotify.
+
 Projekt kładzie również nacisk na zoptymalizowany przepływ pracy, prostotę implementacji oraz przejrzystość kodu, unikając przedwczesnych optymalizacji, które mogłyby skomplikować dalszy rozwój aplikacji.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
