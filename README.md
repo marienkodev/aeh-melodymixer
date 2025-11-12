@@ -1,14 +1,29 @@
-Opis projektu
+# MelodyMixer – Spotify Playlist Manager
 
-Projekt MelodyMixer to jako rozszerzenie aplikacji o funkcjonalność umożliwiającą użytkownikom zarządzanie ich playlistami na Spotify.
-Nowa funkcja pozwala użytkownikom:
-1.	Przeglądać listę swoich istniejących playlist.
-2.	Wybierać playlisty do edycji, ładować ich nazwy oraz utwory do panelu playlist.
-3.	Aktualizować nazwy i/lub utwory w wybranej playliście oraz zapisywać zmiany na swoim koncie Spotify.
+MelodyMixer is a React-based web application that extends Spotify functionality by allowing users to view, edit, and manage their playlists directly through an intuitive interface.
+The app integrates with the Spotify API, providing smooth playlist synchronization and real-time updates.
 
-Projekt zakłada intuicyjne zarządzanie edycją playlist. Na przykład, jeśli użytkownik przełączy się na inną playlistę przed zapisaniem zmian, aplikacja nie zapisze wprowadzonych modyfikacji i załaduje oryginalną wersję wybranej playlisty ze Spotify.
+# Tech Stack
 
-Projekt kładzie również nacisk na zoptymalizowany przepływ pracy, prostotę implementacji oraz przejrzystość kodu, unikając przedwczesnych optymalizacji, które mogłyby skomplikować dalszy rozwój aplikacji.
+**Frontend:** React (Create React App)
+
+**Languages:** JavaScript (ES6+)
+
+**State Management:** React Hooks
+
+**Styling:** CSS Modules
+
+**API:** Spotify Web API
+
+# Features
+
+✅ Browse and display your existing Spotify playlists
+✅ Edit playlist names and tracks through the web panel
+✅ Save changes directly to your Spotify account
+✅ Automatic state management for playlist synchronization
+✅ Error handling and data validation before saving changes
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
